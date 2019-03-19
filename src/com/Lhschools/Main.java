@@ -17,6 +17,9 @@ public class Main {
         System.out.println(a + " times " + b + " is ");
         System.out.println(times(a, b));
         
+        printWorld("World");
+        printWorld("Universe");
+        printWorld("Galaxy");    
     }
 
     public static void printAnswer(String noun){
@@ -28,7 +31,8 @@ public class Main {
     public static int times(int firstNumber, int secondNumber){
         return firstNumber * secondNumber;
     }
-    
+    public static void printWorld(String noun){
+        System.out.println("Hello " +noun);
+    }
 }
-
         
