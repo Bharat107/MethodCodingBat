@@ -11,6 +11,12 @@ public class Main {
         printWeather("Lovely.");
         printWeather("Beautiful.");
         printWeather("Miserable.");
+        
+        int a = 3;
+        int b = 6;
+        System.out.println(a + " times " + b + " is ");
+        System.out.println(times(a, b));
+        
     }
 
     public static void printAnswer(String noun){
@@ -19,4 +25,10 @@ public class Main {
     public static void printWeather(String noun){
         System.out.println("Hello there, today's weather looks quite " +noun);
     }
+    public static int times(int firstNumber, int secondNumber){
+        return firstNumber * secondNumber;
+    }
+    
 }
+
+        
